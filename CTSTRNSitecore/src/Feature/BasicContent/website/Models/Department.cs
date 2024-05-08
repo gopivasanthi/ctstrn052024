@@ -9,7 +9,7 @@ namespace TRN.Feature.BasicContent.Models
     {
         public HtmlString Title { get; set; }
         public HtmlString DepartmentEthos { get; set; }
-        public HtmlString TitleBackground { get; set; }
+        public string TitleBackground { get; set; }
         public HtmlString DepartmentLogo { get; set; }
     }
 }

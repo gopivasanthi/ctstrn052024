@@ -1,4 +1,5 @@
-﻿using Sitecore.Web.UI.WebControls;
+﻿using Sitecore.Resources.Media;
+using Sitecore.Web.UI.WebControls;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,12 +17,18 @@ namespace TRN.Feature.BasicContent.Controllers
         {
             var contextItem = Sitecore.Context.Item;
 
-            //Sitecore.Data.Fields.ImageField titleBackground = contextItem.Fields["TitleBackground"];
+            Sitecore.Data.Fields.ImageField titleBackground = contextItem.Fields["TitleBackground"];
+            var mediaItem = titleBackground.MediaItem;
+            string mediaItemUrl = string.Empty;
+            if (mediaItem != null )
+            {
+                mediaItemUrl = MediaManager.GetMediaUrl(mediaItem);
+            }
             Department dept = new Department
             {
                 Title = new HtmlString(FieldRenderer.Render(contextItem, "Title")),
                 DepartmentEthos = new HtmlString(FieldRenderer.Render(contextItem, "DepartmentEthos")),
-                TitleBackground = new HtmlString(FieldRenderer.Render(contextItem, "TitleBackground")),
+                TitleBackground = mediaItemUrl,
                 DepartmentLogo = new HtmlString(FieldRenderer.Render(contextItem, "DepartmentLogo")),
             };
 

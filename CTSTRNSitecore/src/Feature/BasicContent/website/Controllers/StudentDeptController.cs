@@ -1,4 +1,5 @@
-﻿using Sitecore.Data.Fields;
+﻿using Sitecore.Data;
+using Sitecore.Data.Fields;
 using Sitecore.Links;
 using System;
 using System.Collections.Generic;
@@ -17,8 +18,8 @@ namespace TRN.Feature.BasicContent.Controllers
             var contextItem = Sitecore.Context.Item;
             LinkField DepartmentMapped = contextItem.Fields["StudentDepartment"];
 
-            var linkedDepartmentId = DepartmentMapped.Value;
-
+            var linkedDepartment = DepartmentMapped.Value;
+            ID linkedDepartmentId = new ID(linkedDepartment);
             var linkedDepartmentItem = Sitecore.Context.Database.GetItem(linkedDepartmentId);
 
             Dept dept = new Dept

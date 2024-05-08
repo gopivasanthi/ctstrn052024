@@ -1,27 +1,19 @@
-﻿@model TRN.Feature.BasicContent.Models.Department
-
-@*<h1>@Model.Title</h1>
-    <p>@Model.DepartmentEthos</p>
-    <div>
-        @Model.TitleBackground
-    </div>
-    <div>
-        @Model.DepartmentLogo
-    </div>*@
+﻿
+@model TRN.Feature.BasicContent.Models.StudentHero
 
 <!-- Hero -->
 <div class="p-5 text-center bg-image rounded-3" style="
-    background-image: url('@Model.TitleBackground');
+    background-image: url('@Model.StudentHereImageUrl');
     height: 400px;
   ">
     <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
         <div class="d-flex justify-content-center align-items-center h-100">
             <div class="col-lg-6 mx-auto">
                 @*<img class="d-block mx-auto mb-4" src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">*@
-                <h1 class="display-5 fw-bold text-body-emphasis">@Model.Title</h1>
+                <h1 class="display-5 fw-bold text-body-emphasis">@Model.StudentName</h1>
             </div>
             <div class="col-lg-6 mx-auto">
-                <p class="lead mb-4">@Model.DepartmentEthos</p>
+                <p class="lead mb-4">@Model.StudentDepartment</p>
             </div>
         </div>
     </div>

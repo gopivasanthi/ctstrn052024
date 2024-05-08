@@ -593,13 +593,16 @@
     <Content Include="Views\TRN\BasicContent\DepartmentIntro.cshtml" />
     <Content Include="Views\TRN\BasicContent\Student.cshtml" />
     <Content Include="Views\TRN\BasicContent\DeptLink.cshtml" />
+    <Content Include="Views\TRN\BasicContent\StudentHeroBanner.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\DepartmentIntroController.cs" />
     <Compile Include="Controllers\StudentDeptController.cs" />
+    <Compile Include="Controllers\StudentHeroController.cs" />
     <Compile Include="Models\Department.cs" />
     <Compile Include="Models\Dept.cs" />
+    <Compile Include="Models\StudentHero.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -615,6 +618,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\StudentDept\" />
+    <Folder Include="Views\StudentHero\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
