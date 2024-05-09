@@ -589,6 +589,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\TRN\TrainingDemo\_TrainingDemo.cshtml" />
+    <Content Include="App_Config\Include\TRN\TRNWebsite.SiteDefinition.config" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

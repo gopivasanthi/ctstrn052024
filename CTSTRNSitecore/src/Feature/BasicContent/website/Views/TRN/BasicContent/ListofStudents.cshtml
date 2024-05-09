@@ -1,0 +1,13 @@
+﻿@model IEnumerable<TRN.Feature.BasicContent.Models.StudentListItem>
+<div>
+    @foreach (var studentItem in Model)
+    {
+        <div class="card" style="width: 18rem;">
+            <img src="@studentItem.StudentProfilePicUrl" class="card-img-top" alt="@studentItem.StudentProfilePicAlt">
+            <div class="card-body">
+                <h5 class="card-title">@studentItem.StudentName</h5>
+                <a href="@studentItem.StudentProfilePageUrl" class="btn btn-primary">Learn more...</a>
+            </div>
+        </div>
+    }
+</div>

@@ -594,15 +594,21 @@
     <Content Include="Views\TRN\BasicContent\Student.cshtml" />
     <Content Include="Views\TRN\BasicContent\DeptLink.cshtml" />
     <Content Include="Views\TRN\BasicContent\StudentHeroBanner.cshtml" />
+    <Content Include="Views\TRN\BasicContent\ListofStudents.cshtml" />
+    <Content Include="Views\TRN\BasicContent\CarouselItems.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\DepartmentCarouselController.cs" />
     <Compile Include="Controllers\DepartmentIntroController.cs" />
     <Compile Include="Controllers\StudentDeptController.cs" />
     <Compile Include="Controllers\StudentHeroController.cs" />
+    <Compile Include="Controllers\StudentsListController.cs" />
+    <Compile Include="Models\CarouselItem.cs" />
     <Compile Include="Models\Department.cs" />
     <Compile Include="Models\Dept.cs" />
     <Compile Include="Models\StudentHero.cs" />
+    <Compile Include="Models\StudentListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -617,8 +623,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\DepartmentCarousel\" />
     <Folder Include="Views\StudentDept\" />
     <Folder Include="Views\StudentHero\" />
+    <Folder Include="Views\StudentsList\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
