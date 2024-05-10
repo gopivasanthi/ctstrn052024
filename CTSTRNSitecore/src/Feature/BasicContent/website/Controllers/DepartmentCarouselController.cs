@@ -29,7 +29,7 @@ namespace TRN.Feature.BasicContent.Controllers
 
             carouselItems[0].IsActive = "active";
 
-            return View(carouselItems);
+            return View("/Views/TRN/BasicContent/CarouselItems.cshtml", carouselItems);
         }
 
         private string GetCarouselImageUrl(Item item, string FieldName)
