@@ -1,0 +1,46 @@
+﻿---
+ID: "fa68fe75-029a-4bd7-a281-19a0db177da1"
+Parent: "a3175a92-473a-48e9-a48a-e447628c95b1"
+Template: "f3f2e044-d4c3-43c5-9f2f-189984e1ab31"
+Path: /sitecore/content/trnwebsite/home
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240502T065206Z
+    - ID: "ab1e5b2c-ee96-4db1-aae4-8b36b5a44313"
+      Hint: Title
+      Value: Home Page
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{FEF7E724-A8E8-442B-9B56-4D6CA368C885}">
+              <p:d />
+            </r>
+            <r
+              uid="{107CBAB9-3A19-4CBD-B28E-8D5781911BA7}"
+              s:id="{5C4B068B-F2DF-4F1C-8D28-66D4D4DF33B2}"
+              s:ph="trndemo" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240502T070903Z
+    - ID: "ab1e5b2c-ee96-4db1-aae4-8b36b5a44313"
+      Hint: Title
+      Value: "Home Page - 2"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240502T070903Z

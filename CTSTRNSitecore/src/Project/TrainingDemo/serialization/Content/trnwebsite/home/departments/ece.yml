@@ -1,0 +1,27 @@
+﻿---
+ID: "4ddb8405-ad5d-4f97-9340-18567ac0447f"
+Parent: "ac2f2fad-8978-4f67-9ba4-db47cb1827c8"
+Template: "b013b7ed-9552-47fb-8c51-47f7446817fc"
+Path: /sitecore/content/trnwebsite/home/departments/ece
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240506T065248Z
+    - ID: "4161ff79-154a-4e48-93ee-c6a34c4b17aa"
+      Hint: TitleBackground
+      Value: |
+        <image mediaid="{E37953F4-2A69-484F-86B5-6873FFCEF2E7}" />
+    - ID: "ab1e5b2c-ee96-4db1-aae4-8b36b5a44313"
+      Hint: Title
+      Value: Electronics and communication
+    - ID: "c823dc58-8887-45ad-94c5-100fefd18e9a"
+      Hint: CarouselList
+      Type: Multilist
+      Value: |
+        {0A38D0F6-EFC9-4A34-9726-994161549E16}
+        {28E91AAE-054A-4024-8BFA-66A950C6A4B0}

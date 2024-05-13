@@ -1,0 +1,28 @@
+﻿---
+ID: "28e91aae-054a-4024-8bfa-66a950c6a4b0"
+Parent: "8dd5e1ab-2d6e-4448-ac88-c693d009eab1"
+Template: "4c214901-46ee-4826-81b1-534767acfa66"
+Path: "/sitecore/content/trnwebsite/home/departments/ece/CarouselFolder/item-2"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240508T101157Z
+    - ID: "2ee12bcd-57a0-48b2-8cbe-5af4fd508fcb"
+      Hint: CarouselDescription
+      Value: test desc
+    - ID: "5355f3aa-9802-4690-838b-9d46f2598308"
+      Hint: CarouselTitle
+      Value: "item-1"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "bfb0b95f-e525-42b0-8b5e-634d9bfb221d"
+      Hint: CarouselImage
+      Value: |
+        <image mediaid="{54D52A66-5CA2-4D0B-B4C8-F3C7200558DD}" />

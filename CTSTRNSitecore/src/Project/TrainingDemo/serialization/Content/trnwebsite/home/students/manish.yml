@@ -1,0 +1,27 @@
+﻿---
+ID: "c80aefb1-a8bc-4db1-a37e-88e400a5d9c1"
+Parent: "103d2d86-cb68-4ec3-8481-45290e626504"
+Template: "12d854f1-95f7-422d-90b3-3a7911ea2135"
+Path: /sitecore/content/trnwebsite/home/students/manish
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17d63542-6467-4d42-92fe-c0ece08df06b"
+      Hint: StudentID
+      Value: wsedfde
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240506T065317Z
+    - ID: "a3913842-2e92-479a-ad22-121a506cf387"
+      Hint: StudentDepartment
+      Value: "{4DDB8405-AD5D-4F97-9340-18567AC0447F}"
+    - ID: "abf40030-1448-494e-a815-9e1e9fe17aab"
+      Hint: StudentName
+      Value: manish
+    - ID: "db2e18fe-0437-4257-8b8e-00847ae63a78"
+      Hint: StudentProfilePic
+      Value: |
+        <image mediaid="{3FA2CAE4-F1A1-4D35-839D-BF05373AA644}" />

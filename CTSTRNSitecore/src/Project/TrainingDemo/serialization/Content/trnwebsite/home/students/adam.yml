@@ -1,0 +1,41 @@
+﻿---
+ID: "b8b252be-5bf8-4fd4-a961-1ac214d1d7e3"
+Parent: "103d2d86-cb68-4ec3-8481-45290e626504"
+Template: "12d854f1-95f7-422d-90b3-3a7911ea2135"
+Path: /sitecore/content/trnwebsite/home/students/adam
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17d63542-6467-4d42-92fe-c0ece08df06b"
+      Hint: StudentID
+      Value: 2343
+    - ID: "22907e7d-3af4-4a2e-9262-46c4dcc4c7e7"
+      Hint: StudentHeroImage
+      Value: |
+        <image mediaid="{8CB1F46B-E4CA-4A8B-BD51-C0A41EAD2232}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240506T065321Z
+    - ID: "3bbe7e8b-f8d4-4002-827b-4d6ef57991c8"
+      Hint: StudentDob
+      Value: 20240506T230000Z
+    - ID: "a3913842-2e92-479a-ad22-121a506cf387"
+      Hint: StudentDepartment
+      Value: "{4DDB8405-AD5D-4F97-9340-18567AC0447F}"
+    - ID: "abf40030-1448-494e-a815-9e1e9fe17aab"
+      Hint: StudentName
+      Value: adam
+    - ID: "c17861bc-735f-43e5-82a6-b7664fbc86a7"
+      Hint: StudentAddress
+      Value: |
+        <p>34 Jolly Lane</p>
+        <p>Brison</p>
+        <p>Bucks</p>
+        <p>KI87juHN</p>
+    - ID: "db2e18fe-0437-4257-8b8e-00847ae63a78"
+      Hint: StudentProfilePic
+      Value: |
+        <image mediaid="{A10CFD27-FAB4-43DB-A620-8F45FAC68CAF}" />
