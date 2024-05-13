@@ -590,6 +590,7 @@
   <ItemGroup>
     <Content Include="Views\TRN\TrainingDemo\_TrainingDemo.cshtml" />
     <Content Include="App_Config\Include\TRN\TRNWebsite.SiteDefinition.config" />
+    <Content Include="App_Config\Include\TRN\Unicorn\TRN.Project.TrainingDemo.Unicorn.config" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

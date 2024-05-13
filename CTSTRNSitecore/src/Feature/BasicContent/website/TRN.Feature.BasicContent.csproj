@@ -596,6 +596,7 @@
     <Content Include="Views\TRN\BasicContent\StudentHeroBanner.cshtml" />
     <Content Include="Views\TRN\BasicContent\ListofStudents.cshtml" />
     <Content Include="Views\TRN\BasicContent\CarouselItems.cshtml" />
+    <Content Include="App_Config\Include\TRN\Unicorn\TRN.Feature.BasicContent.Unicorn.config" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
