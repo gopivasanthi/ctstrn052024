@@ -6,6 +6,10 @@ Path: /sitecore/content/trnwebsite/home/departments
 DB: master
 Languages:
 - Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Department Listing
   Versions:
   - Version: 1
     Fields:
@@ -16,3 +20,6 @@ Languages:
       Hint: IsNavigablePage
       Type: Checkbox
       Value: 1
+    - ID: "ab1e5b2c-ee96-4db1-aae4-8b36b5a44313"
+      Hint: Title
+      Value: Departments Listing

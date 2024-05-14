@@ -590,6 +590,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\TRN\Navigation\Navigation.cshtml" />
+    <Content Include="App_Config\Include\TRN\Unicorn\TRN.Foundation.Navigation.Unicorn.config" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

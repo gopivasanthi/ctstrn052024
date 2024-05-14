@@ -23,12 +23,19 @@ namespace TRN.Foundation.Navigation.Controllers
                 {
                     NavItem = new NavigationItem
                     {
-                        NavigationItemName = x.Name,
+                        NavigationItemName = x.DisplayName,
                         NavgiationItemUrl = LinkManager.GetItemUrl(x)
                     },
                     SubNavigations = GetSubNavigationItem(x) ?? new List<NavigationItem>()
                 }).ToList();
-            return View("/Views/TRN/Navigation/Navigation.cshtml", result);
+
+            NavigationMenu menu = new NavigationMenu()
+            {
+                HomePage = new NavigationItem { NavigationItemName = homeItem.DisplayName, NavgiationItemUrl = LinkManager.GetItemUrl(homeItem) },
+                MainNavigation = result
+            };
+
+            return View("/Views/TRN/Navigation/Navigation.cshtml", menu);
         }
         private bool CheckForNavigableItem(Item item)
         {
@@ -47,7 +54,7 @@ namespace TRN.Foundation.Navigation.Controllers
                     .Select(x => new NavigationItem()
                     {
                         NavgiationItemUrl = LinkManager.GetItemUrl(x),
-                        NavigationItemName = x.Name
+                        NavigationItemName = x.DisplayName
                     }).ToList();
         }
     }
