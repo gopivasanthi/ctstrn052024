@@ -548,7 +548,7 @@
     <Reference Include="System.Web.Http.WebHost, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.6\lib\net45\System.Web.Http.WebHost.dll</HintPath>
     </Reference>
-    <Reference Include="System.Web.Mvc, Version=5.2.9.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+    <Reference Include="System.Web.Mvc, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\lib\System.Web.Mvc.dll</HintPath>
     </Reference>
@@ -597,14 +597,17 @@
     <Content Include="Views\TRN\BasicContent\ListofStudents.cshtml" />
     <Content Include="Views\TRN\BasicContent\CarouselItems.cshtml" />
     <Content Include="App_Config\Include\TRN\Unicorn\TRN.Feature.BasicContent.Unicorn.config" />
+    <Content Include="Views\TRN\BasicContent\Banner.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\BannerController.cs" />
     <Compile Include="Controllers\DepartmentCarouselController.cs" />
     <Compile Include="Controllers\DepartmentIntroController.cs" />
     <Compile Include="Controllers\StudentDeptController.cs" />
     <Compile Include="Controllers\StudentHeroController.cs" />
     <Compile Include="Controllers\StudentsListController.cs" />
+    <Compile Include="Models\Banner.cs" />
     <Compile Include="Models\CarouselItem.cs" />
     <Compile Include="Models\Department.cs" />
     <Compile Include="Models\Dept.cs" />
@@ -624,6 +627,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Banner\" />
     <Folder Include="Views\DepartmentCarousel\" />
     <Folder Include="Views\StudentDept\" />
     <Folder Include="Views\StudentHero\" />

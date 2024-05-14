@@ -7,16 +7,16 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{BE49DD9E-9AF1-4C9D-AF3F-BCB9F9237987}</ProjectGuid>
+    <ProjectGuid>{14C34E90-CB49-4CAE-9F15-47DCFC16A9C6}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TRN.Project.TrainingDemo</RootNamespace>
-    <AssemblyName>TRN.Project.TrainingDemo</AssemblyName>
+    <RootNamespace>TRN.Foundation.Navigation</RootNamespace>
+    <AssemblyName>TRN.Foundation.Navigation</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort>44315</IISExpressSSLPort>
+    <IISExpressSSLPort>44370</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -589,12 +589,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\TRN\TrainingDemo\_TrainingDemo.cshtml" />
-    <Content Include="App_Config\Include\TRN\TRNWebsite.SiteDefinition.config" />
-    <Content Include="App_Config\Include\TRN\Unicorn\TRN.Project.TrainingDemo.Unicorn.config" />
+    <Content Include="Views\TRN\Navigation\Navigation.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\NavigationController.cs" />
+    <Compile Include="Models\MainNavigation.cs" />
+    <Compile Include="Models\NavigationItem.cs" />
+    <Compile Include="Models\NavigationMenu.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -609,8 +611,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
+    <Folder Include="Views\Navigation\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -625,9 +626,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>54429</DevelopmentServerPort>
+          <DevelopmentServerPort>60409</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44315/</IISUrl>
+          <IISUrl>https://localhost:44370/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

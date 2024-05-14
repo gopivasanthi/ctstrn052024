@@ -22,6 +22,10 @@ Languages:
     - ID: "3bbe7e8b-f8d4-4002-827b-4d6ef57991c8"
       Hint: StudentDob
       Value: 20240506T230000Z
+    - ID: "4f3d690b-a3e3-4ad0-9e5d-38402e451775"
+      Hint: IsNavigablePage
+      Type: Checkbox
+      Value: 1
     - ID: "a3913842-2e92-479a-ad22-121a506cf387"
       Hint: StudentDepartment
       Value: "{4DDB8405-AD5D-4F97-9340-18567AC0447F}"

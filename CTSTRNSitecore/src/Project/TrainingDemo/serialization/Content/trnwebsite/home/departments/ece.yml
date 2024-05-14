@@ -4,6 +4,22 @@ Parent: "ac2f2fad-8978-4f67-9ba4-db47cb1827c8"
 Template: "b013b7ed-9552-47fb-8c51-47f7446817fc"
 Path: /sitecore/content/trnwebsite/home/departments/ece
 DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{DEC4C65A-21D3-41F9-A96E-94F002AE6659}"
+          s:ccb="Clear on publish"
+          s:ds="{D8997EE4-8D6D-4582-8AFE-04C0BD8121F9}"
+          s:par="" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Versions:
@@ -16,6 +32,10 @@ Languages:
       Hint: TitleBackground
       Value: |
         <image mediaid="{E37953F4-2A69-484F-86B5-6873FFCEF2E7}" />
+    - ID: "4f3d690b-a3e3-4ad0-9e5d-38402e451775"
+      Hint: IsNavigablePage
+      Type: Checkbox
+      Value: 1
     - ID: "ab1e5b2c-ee96-4db1-aae4-8b36b5a44313"
       Hint: Title
       Value: Electronics and communication

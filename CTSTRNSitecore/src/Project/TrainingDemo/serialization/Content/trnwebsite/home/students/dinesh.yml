@@ -19,6 +19,10 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20240506T065258Z
+    - ID: "4f3d690b-a3e3-4ad0-9e5d-38402e451775"
+      Hint: IsNavigablePage
+      Type: Checkbox
+      Value: 1
     - ID: "a3913842-2e92-479a-ad22-121a506cf387"
       Hint: StudentDepartment
       Value: "{4DDB8405-AD5D-4F97-9340-18567AC0447F}"
