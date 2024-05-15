@@ -598,10 +598,14 @@
     <Content Include="Views\TRN\BasicContent\CarouselItems.cshtml" />
     <Content Include="App_Config\Include\TRN\Unicorn\TRN.Feature.BasicContent.Unicorn.config" />
     <Content Include="Views\TRN\BasicContent\Banner.cshtml" />
+    <Content Include="Views\TRN\BasicContent\Article.cshtml" />
+    <Content Include="Views\TRN\BasicContent\CommentsForm.cshtml" />
+    <Content Include="Views\TRN\BasicContent\CommentsConfirmation.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\BannerController.cs" />
+    <Compile Include="Controllers\CommentsFormController.cs" />
     <Compile Include="Controllers\DepartmentCarouselController.cs" />
     <Compile Include="Controllers\DepartmentIntroController.cs" />
     <Compile Include="Controllers\StudentDeptController.cs" />
@@ -609,6 +613,7 @@
     <Compile Include="Controllers\StudentsListController.cs" />
     <Compile Include="Models\Banner.cs" />
     <Compile Include="Models\CarouselItem.cs" />
+    <Compile Include="Models\Comments.cs" />
     <Compile Include="Models\Department.cs" />
     <Compile Include="Models\Dept.cs" />
     <Compile Include="Models\StudentHero.cs" />
@@ -628,6 +633,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\Banner\" />
+    <Folder Include="Views\CommentsForm\" />
     <Folder Include="Views\DepartmentCarousel\" />
     <Folder Include="Views\StudentDept\" />
     <Folder Include="Views\StudentHero\" />

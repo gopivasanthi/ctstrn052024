@@ -1,0 +1,20 @@
+﻿@model TRN.Feature.BasicContent.Models.Comments
+
+@using (Html.BeginForm())
+{
+
+    <h1>Give your comments here.. </h1>
+
+    <p>Give your name</p>
+    <br />
+    <input class="form-control" type="text" id="@Model.Name" name="@Model.Name" placeholder="enter your name.. " />
+    <p>Give your email</p>
+    <br />
+    <input class="form-control" type="text" id="@Model.Email" name="@Model.Email" placeholder="enter your email.. " />
+    <p>Give your comments</p>
+    <br />
+    <input class="form-control" type="text" id="@Model.Comment" name="@Model.Comment" placeholder="enter your comment.. " />
+    <br />
+    <button type="submit" class="btn btn-primary">Submit</button>
+
+}

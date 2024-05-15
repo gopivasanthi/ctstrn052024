@@ -18,6 +18,14 @@ SharedFields:
           s:ccb="Clear on publish"
           s:ds="{C2F781B3-694B-4D93-8CBE-8944FBDD5FF3}"
           s:par="" />
+        <r
+          uid="{6B556240-8D2F-498A-A7E2-18CE5844815D}"
+          p:after="*[1=2]"
+          s:ds="{598CFC80-F1BF-45D9-ADBE-76B45A10A20A}"
+          s:id="{6B5B0FE6-5C85-4487-BA7E-F8C2ECC186A8}"
+          s:par=""
+          s:ph="trndemo"
+          s:ccb="Clear on publish" />
       </d>
     </r>
 Languages:

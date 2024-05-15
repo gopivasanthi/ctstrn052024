@@ -1,0 +1,32 @@
+﻿---
+ID: "ec3285dd-81e9-45ea-8470-c7041639d0e4"
+Parent: "8d2530a7-01f2-4c15-9430-e0c520228d27"
+Template: "883f305d-78f7-46cc-8942-40dcaa77423a"
+Path: "/sitecore/content/trnwebsite/home/Articles/global-warming"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240515T061047Z
+    - ID: "369b7ae5-8d90-4784-b60b-e750deab72aa"
+      Hint: ArticleDescription
+      Value: test
+    - ID: "3f213186-a4de-46f2-b4e5-34ba76a4a713"
+      Hint: ArticleImage
+      Value: |
+        <image mediaid="{8CB1F46B-E4CA-4A8B-BD51-C0A41EAD2232}" />
+    - ID: "43aeb2ff-d193-4151-be8f-feffa909b541"
+      Hint: ArticleTitle
+      Value: Global Warming
+    - ID: "4f3d690b-a3e3-4ad0-9e5d-38402e451775"
+      Hint: IsNavigablePage
+      Type: Checkbox
+      Value: 1
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

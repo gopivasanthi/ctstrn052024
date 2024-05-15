@@ -1,0 +1,18 @@
+﻿---
+ID: "8d2530a7-01f2-4c15-9430-e0c520228d27"
+Parent: "fa68fe75-029a-4bd7-a281-19a0db177da1"
+Template: "24725b18-2542-4a57-9174-46c79511e84e"
+Path: /sitecore/content/trnwebsite/home/Articles
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240515T061036Z
+    - ID: "4f3d690b-a3e3-4ad0-9e5d-38402e451775"
+      Hint: IsNavigablePage
+      Type: Checkbox
+      Value: 1
