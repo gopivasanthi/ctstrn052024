@@ -50,6 +50,66 @@ Languages:
               <p:d />
             </r>
             <r
+              uid="{EE9E392D-81D2-479E-A65A-2EF48A52A543}"
+              s:pt="{DFC0BAEF-9C86-4B90-8A83-43DE632DA8A7}"
+              s:uid="{EE9E392D-81D2-479E-A65A-2EF48A52A543}">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{CD562F13-8867-46DD-830A-58A8BE767799}"
+                    s:name="After 14th May"
+                    s:test="true">
+                    <actions>
+                      <action
+                        uid="8BC2AE5684614AE2B5C871170C629AF1"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{C2F781B3-694B-4D93-8CBE-8944FBDD5FF3}" />
+                    </actions>
+                    <conditions>
+                      <condition
+                        uid="ED66D311CB0B407E9FAC868BAF0F0BDB"
+                        s:id="{8A9B001F-FB59-4F0F-B3F3-C6C5360ED451}"
+                        s:Now="20240514T063500Z" />
+                    </conditions>
+                  </rule>
+                  <rule
+                    uid="{B10A0571-299C-44F0-B6E0-3A29DC1E81E1}"
+                    s:name="After 13th May"
+                    s:test="true">
+                    <conditions>
+                      <condition
+                        uid="6F53410B2EE948F29811EF600EFC2327"
+                        s:id="{8A9B001F-FB59-4F0F-B3F3-C6C5360ED451}"
+                        s:Now="20240513T063200Z" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="88D28C03DE2B445398EE2D66DED3D454"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{65824E26-9546-4288-81CC-A21FBFFC718E}" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default"
+                    s:test="true">
+                    <conditions>
+                      <condition
+                        uid="4B56AE8FB2F94660A46D9C5167B40CA4"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="401115E16F4C427E8F73E60FA924DBAB"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="{D8997EE4-8D6D-4582-8AFE-04C0BD8121F9}" />
+                    </actions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
               uid="{107CBAB9-3A19-4CBD-B28E-8D5781911BA7}"
               p:after="*[1=2]"
               s:id="{5C4B068B-F2DF-4F1C-8D28-66D4D4DF33B2}"

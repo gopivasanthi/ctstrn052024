@@ -1,0 +1,22 @@
+﻿---
+ID: "28ae3379-dda8-4734-ad81-140a86e2efab"
+Parent: "fa68fe75-029a-4bd7-a281-19a0db177da1"
+Template: "4d9f5c72-6420-4556-be0c-e199b0e6aa0a"
+Path: /sitecore/content/trnwebsite/home/staff
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Staff Listing
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240514T065759Z
+    - ID: "4f3d690b-a3e3-4ad0-9e5d-38402e451775"
+      Hint: IsNavigablePage
+      Type: Checkbox
+      Value: 1

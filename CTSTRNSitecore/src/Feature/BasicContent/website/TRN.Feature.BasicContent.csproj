@@ -633,6 +633,12 @@
     <Folder Include="Views\StudentHero\" />
     <Folder Include="Views\StudentsList\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Foundation\Navigation\website\TRN.Foundation.Navigation.csproj">
+      <Project>{14c34e90-cb49-4cae-9f15-47dcfc16a9c6}</Project>
+      <Name>TRN.Foundation.Navigation</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
