@@ -1,20 +1,18 @@
-﻿@model TRN.Feature.BasicContent.Models.Comments
+﻿@model TRN.Feature.BasicContent.Models.CommentsFormViewModel
 
 @using (Html.BeginForm())
 {
-
-    <h1>Give your comments here.. </h1>
-
-    <p>Give your name</p>
+    <p>ID</p>
+    <input class="form-control" type="text" id="@Model.Comments.ID" name="@Model.Comments.ID" placeholder="Give your ID" />
+    <p>@Model.CommentsFormLabel.NameLabel</p>
     <br />
-    <input class="form-control" type="text" id="@Model.Name" name="@Model.Name" placeholder="enter your name.. " />
-    <p>Give your email</p>
+    <input class="form-control" type="text" id="@Model.Comments.Name" name="@Model.Comments.Name" placeholder="@Model.CommentsFormLabel.NamePlaceholder" />
+    <p>@Model.CommentsFormLabel.EmailLabel</p>
     <br />
-    <input class="form-control" type="text" id="@Model.Email" name="@Model.Email" placeholder="enter your email.. " />
-    <p>Give your comments</p>
+    <input class="form-control" type="text" id="@Model.Comments.Email" name="@Model.Comments.Email" placeholder="@Model.CommentsFormLabel.EmailPlaceholder " />
+    <p>@Model.CommentsFormLabel.CommentLabel</p>
     <br />
-    <input class="form-control" type="text" id="@Model.Comment" name="@Model.Comment" placeholder="enter your comment.. " />
+    <input class="form-control" type="text" id="@Model.Comments.Comment" name="@Model.Comments.Comment" placeholder="@Model.CommentsFormLabel.CommentPlaceholder" />
     <br />
-    <button type="submit" class="btn btn-primary">Submit</button>
-
+    <button type="submit" class="btn btn-primary">@Model.CommentsFormLabel.SubmitButtonLabel</button>
 }

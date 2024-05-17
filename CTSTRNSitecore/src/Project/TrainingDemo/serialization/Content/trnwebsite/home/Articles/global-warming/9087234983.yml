@@ -1,0 +1,34 @@
+﻿---
+ID: "b6844111-7e85-4144-99dd-f9dc880a343a"
+Parent: "ec3285dd-81e9-45ea-8470-c7041639d0e4"
+Template: "ac57c652-54f7-4f97-88fc-86cbfc5e08ea"
+Path: "/sitecore/content/trnwebsite/home/Articles/global-warming/9087234983"
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Mark
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240516T064839Z
+    - ID: "3f514403-a9f7-4b32-8423-c0f4428327cb"
+      Hint: Comment
+      Value: This is a comment to check the comments list component
+    - ID: "4b557241-5a66-4c5c-a300-31c45979e100"
+      Hint: Email
+      Value: mark@gmail.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        extranet\Anonymous
+    - ID: "643537d2-68d0-4cb3-857f-8102d5c35e16"
+      Hint: ID
+      Value: 9087234983
+    - ID: "d8937bb7-c282-4555-ad8f-e09116507b09"
+      Hint: Name
+      Value: Mark

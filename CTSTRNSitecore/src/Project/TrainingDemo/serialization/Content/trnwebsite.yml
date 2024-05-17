@@ -4,6 +4,11 @@ Parent: "0de95ae4-41ab-4d01-9eb0-67441b7c2450"
 Template: "a1b46007-227d-48c5-b3fa-38f7c75cf0c5"
 Path: /sitecore/content/trnwebsite
 DB: master
+SharedFields:
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    au|sitecore\Paul|pd|+item:delete|+item:admin|+bucket:makebucket|+item:write|+item:read|+bucket:unmake|^*|+item:rename|+item:create|pe|+item:delete|+item:admin|+bucket:makebucket|+item:write|+item:read|+bucket:unmake|^*|+item:rename|+item:create|
 Languages:
 - Language: en
   Versions:

@@ -12,6 +12,38 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20240515T062347Z
+    - ID: "42eaca03-735d-4e0e-bb1a-748e9addb91d"
+      Hint: CommentLabel
+      Value: Comments
+    - ID: "4d6c2dec-4c3d-4aa3-a7c5-dfc8284154d6"
+      Hint: EmailLabel
+      Value: Your Email
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "69ef2763-d2f2-40b9-889c-8c4445428bfd"
+      Hint: EmailPlaceholder
+      Value: Give your email id here.. 
+    - ID: "9fac0392-4d45-4630-a06c-b3faf31a0cd2"
+      Hint: NamePlaceholder
+      Value: Give your name here.. 
+    - ID: "ae7223ef-0638-4071-9cd4-dc4980f1e02b"
+      Hint: NameLabel
+      Value: Your name
+    - ID: "d6426606-a5c2-4cc5-8630-31b35acbe5da"
+      Hint: CommentPlaceholder
+      Value: Please give your valuable comments here.. 
+    - ID: "e6b0ce52-37ca-4e22-b9e1-08f2006f1bd7"
+      Hint: SubmitButtonLabel
+      Value: Submit
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240516T040336Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |

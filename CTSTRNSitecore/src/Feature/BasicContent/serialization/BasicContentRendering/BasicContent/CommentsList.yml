@@ -1,0 +1,21 @@
+﻿---
+ID: "3867983e-6828-4aa2-8d49-cb3adb93011a"
+Parent: "c790984b-2176-4c86-8739-28e0f7be2c07"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/Feature/TRN/BasicContent/CommentsList
+DB: master
+SharedFields:
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: GetAllComments
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: TRN.Feature.BasicContent.Controllers.CommentsListController, TRN.Feature.BasicContent
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240516T063618Z

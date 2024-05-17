@@ -1,0 +1,27 @@
+﻿---
+ID: "9034da83-7fe5-4b73-aacf-da28cc692b89"
+Parent: "ec3285dd-81e9-45ea-8470-c7041639d0e4"
+Template: "ac57c652-54f7-4f97-88fc-86cbfc5e08ea"
+Path: "/sitecore/content/trnwebsite/home/Articles/global-warming/Rakesh"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240516T053426Z
+    - ID: "3f514403-a9f7-4b32-8423-c0f4428327cb"
+      Hint: Comment
+      Value: Global warming is a very essential topic to be discussed in the current situation. 
+    - ID: "4b557241-5a66-4c5c-a300-31c45979e100"
+      Hint: Email
+      Value: rakesh@gmail.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        extranet\Anonymous
+    - ID: "d8937bb7-c282-4555-ad8f-e09116507b09"
+      Hint: Name
+      Value: Rakesh

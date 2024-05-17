@@ -601,11 +601,13 @@
     <Content Include="Views\TRN\BasicContent\Article.cshtml" />
     <Content Include="Views\TRN\BasicContent\CommentsForm.cshtml" />
     <Content Include="Views\TRN\BasicContent\CommentsConfirmation.cshtml" />
+    <Content Include="Views\TRN\BasicContent\CommentsList.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\BannerController.cs" />
     <Compile Include="Controllers\CommentsFormController.cs" />
+    <Compile Include="Controllers\CommentsListController.cs" />
     <Compile Include="Controllers\DepartmentCarouselController.cs" />
     <Compile Include="Controllers\DepartmentIntroController.cs" />
     <Compile Include="Controllers\StudentDeptController.cs" />
@@ -614,6 +616,8 @@
     <Compile Include="Models\Banner.cs" />
     <Compile Include="Models\CarouselItem.cs" />
     <Compile Include="Models\Comments.cs" />
+    <Compile Include="Models\CommentsFormLabel.cs" />
+    <Compile Include="Models\CommentsFormViewModel.cs" />
     <Compile Include="Models\Department.cs" />
     <Compile Include="Models\Dept.cs" />
     <Compile Include="Models\StudentHero.cs" />
@@ -634,6 +638,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="Views\Banner\" />
     <Folder Include="Views\CommentsForm\" />
+    <Folder Include="Views\CommentsList\" />
     <Folder Include="Views\DepartmentCarousel\" />
     <Folder Include="Views\StudentDept\" />
     <Folder Include="Views\StudentHero\" />
