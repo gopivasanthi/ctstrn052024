@@ -636,13 +636,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Banner\" />
-    <Folder Include="Views\CommentsForm\" />
-    <Folder Include="Views\CommentsList\" />
-    <Folder Include="Views\DepartmentCarousel\" />
-    <Folder Include="Views\StudentDept\" />
-    <Folder Include="Views\StudentHero\" />
-    <Folder Include="Views\StudentsList\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Foundation\Navigation\website\TRN.Foundation.Navigation.csproj">

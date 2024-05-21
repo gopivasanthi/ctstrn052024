@@ -1,0 +1,68 @@
+﻿---
+ID: "f44f2bfc-7f34-4d75-86d4-5aa878df307f"
+Parent: "8d2530a7-01f2-4c15-9430-e0c520228d27"
+Template: "883f305d-78f7-46cc-8942-40dcaa77423a"
+Path: "/sitecore/content/trnwebsite/home/Articles/living-fossil"
+DB: master
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240520T054159Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Student1
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240517T051957Z
+    - ID: "369b7ae5-8d90-4784-b60b-e750deab72aa"
+      Hint: ArticleDescription
+      Value: |
+        Scientists are racing to trace deep ocean species before they are lost, with the help of photographers who have a taste for danger.<br />
+        I<br />
+        In 2010 four friends, carrying 32kg (71lb) worth of camera equipment, sunk beneath the waves of Sodwana Bay, off the east coast of South Africa. It was then that photographer, Laurent Ballesta stared directly into the eyes of a creature once thought to have died out with the dinosaurs &ndash; making him the first diver to photograph a living coelacanth.<br />
+        <br />
+        "It's not just a fish we thought was extinct," says Ballesta. "It's a masterpiece in the history of evolution."<br />
+        <br />
+        Venture back to the beginning of the age of the dinosaurs, and you'd find coelacanths in abundance, on every continent, living in the steamy marshes of the Triassic Period. Dating back 410 million years, the coelacanth belongs to the group of "lobe-finned" fish that left the ocean between about 390 and 360 million years ago. Its strong, fleshy fins were a precursor to the paired limbs of tetrapods, which include all land-living vertebrates &ndash; amphibians, reptiles, birds and mammals and, yes, humans too. In fact, coelacanths are more closely related to tetrapods than to any other known fish species.<br />
+        <br />
+        The youngest known fossil coelacanth is 66 million years old, leading to the assumption that these animals were long extinct. Then, in 1938, a fish with iridescent blue-green scales and four limb-like fins, was caught in a trawl net off the coast of South Africa. Further investigations followed and, in 1987, ethologist Hans Fricke led a submersible expedition off the coast of Grande Comore, where he managed to capture living coelacanths on film for the first time.<br />
+        <br />
+        This coelacanth has been dubbed a living fossil, although, experts say this nickname is not accurate and the coelacanth has, in fact, evolved, albeit extremely slowly. For one thing, this elusive fish no longer dwells on the periphery of the land, but deep in the ocean.<br />
+        <br />
+        "Every time they were caught, it was very deep, too deep for normal scuba diving techniques at the time," says Ballesta. "So, it was just a fantasy in my mind." But, in 2000, Ballesta heard about a diver named Peter Timm. "During a deep dive, Timm found a coelacanth in a cave at only 120m (393ft) [depth]." So, in 2010, after intensive deep-dive training, and with the help of newly available rebreather diving technology &ndash; which would allow him to remain underwater for longer than previously possible &ndash; Ballesta enlisted Timm to be his guide.<br />
+        <br />
+        Coelacanths live in the benthic zone &ndash; on the sea floor &ndash; as deep as 300m (984ft) along steep underwater slopes and shelves. During the day, they gather in submarine caves, only emerging to feed during the night. It was in such caves, that Ballesta met his first coelacanth.
+    - ID: "3f213186-a4de-46f2-b4e5-34ba76a4a713"
+      Hint: ArticleImage
+      Value: |
+        <image mediaid="{6E358EE5-EBD4-4447-84F3-E89488770A63}" />
+    - ID: "4161ff79-154a-4e48-93ee-c6a34c4b17aa"
+      Hint: TitleBackground
+      Value: |
+        <image mediaid="{002E6B8E-D58F-424A-B09B-149C1EED941E}" />
+    - ID: "43aeb2ff-d193-4151-be8f-feffa909b541"
+      Hint: ArticleTitle
+      Value: Living Fossil
+    - ID: "ab1e5b2c-ee96-4db1-aae4-8b36b5a44313"
+      Hint: Title
+      Value: The deep ocean photographer that captured a 'living fossil'
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240520T054154Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Student1

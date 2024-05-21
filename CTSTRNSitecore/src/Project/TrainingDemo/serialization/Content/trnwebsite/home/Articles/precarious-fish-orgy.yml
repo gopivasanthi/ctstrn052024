@@ -1,0 +1,48 @@
+﻿---
+ID: "c264dd8f-e10c-47b6-9d40-d630b348a901"
+Parent: "8d2530a7-01f2-4c15-9430-e0c520228d27"
+Template: "883f305d-78f7-46cc-8942-40dcaa77423a"
+Path: "/sitecore/content/trnwebsite/home/Articles/precarious-fish-orgy"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240517T044657Z
+    - ID: "369b7ae5-8d90-4784-b60b-e750deab72aa"
+      Hint: ArticleDescription
+      Value: |
+        Millions of small fish fling themselves on Californian beaches to have sex &ndash; strictly under the full or new Moon. This incredible mating ritual is threatened, but citizen scientists are diligently working to save it.<br />
+        O<br />
+        On a Southern Californian beach in the middle of the night, a citizen scientist stood observing thousands of fish having sex. "Unruly thousands, all making noise," they duly jotted down. "Looked like some post-apocalyptic marine Mad Max."<br />
+        <br />
+        This unique mating ritual is known as the grunion run. Unlike most other fish, the small silvery grunions actually spawn onshore, flinging themselves from the ocean onto the sand. In addition, they only spawn during full or new moons &ndash; because they need a high tide.<br />
+        <br />
+        Since 2002, the rituals have been observed by "grunion greeters" &ndash; citizen scientists who volunteer to observe the fish at 50 California beaches. They report their observations back to Karen Martin, a scientist at Malibu's Pepperdine University, who has been studying grunion for decades. To date, more than 5,000 people have contributed to Martin's project. "We couldn't do it without them," says Martin. "There is no other way for us to get this kind of data. It's pretty remarkable, actually."<br />
+        <br />
+        The fish are near-impossible to count. They are smart enough to avoid nets, and they don't take bait on a hook. "The 'normal' methods for stock assessment do not work for these species," Martin explains.<br />
+        <br />
+        As a result, there's no formal statistic for how many there are &ndash; and so they don't have a conservation status either, although Martin says they are certainly under threat and numbers have declined significantly in the past decade according to her research.<br />
+        <br />
+        The fish are only found along the Pacific Coast, primarily between Punta Abreojos in Mexico's Baja California, up to Point Conception, in central California. Scientists believe the fish, which grow to around five inches (13cm) long, have declined in numbers over the past century. Beach erosion, light pollution and development along coastlines are the main threats to the fish, as well as overfishing and habitat destruction.
+    - ID: "3f213186-a4de-46f2-b4e5-34ba76a4a713"
+      Hint: ArticleImage
+      Value: |
+        <image mediaid="{44A600A4-67A2-4C63-9874-2B839EB92D3F}" />
+    - ID: "4161ff79-154a-4e48-93ee-c6a34c4b17aa"
+      Hint: TitleBackground
+      Value: |
+        <image mediaid="{50B2DDC6-5CF6-40A3-BF64-084C6EE5EB64}" />
+    - ID: "43aeb2ff-d193-4151-be8f-feffa909b541"
+      Hint: ArticleTitle
+      Value: Precarious fish orgy
+    - ID: "4f3d690b-a3e3-4ad0-9e5d-38402e451775"
+      Hint: IsNavigablePage
+      Type: Checkbox
+      Value: 1
+    - ID: "ab1e5b2c-ee96-4db1-aae4-8b36b5a44313"
+      Hint: Title
+      Value: The Moon brings a wild but precarious fish orgy to California's beaches

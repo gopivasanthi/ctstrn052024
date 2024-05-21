@@ -1,0 +1,82 @@
+﻿---
+ID: "53e1bd4f-fecc-4334-836b-128d803fb28b"
+Parent: "8d2530a7-01f2-4c15-9430-e0c520228d27"
+Template: "883f305d-78f7-46cc-8942-40dcaa77423a"
+Path: "/sitecore/content/trnwebsite/home/Articles/bird-flu-vaccine-for-humans"
+DB: master
+Languages:
+- Language: da
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240520T054430Z
+    - ID: "43aeb2ff-d193-4151-be8f-feffa909b541"
+      Hint: ArticleTitle
+      Value: Dette er den engelske version af artiklen
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DanishStudent1
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240520T053430Z
+    - ID: "369b7ae5-8d90-4784-b60b-e750deab72aa"
+      Hint: ArticleDescription
+      Value: |
+        The widespread presence of bird flu in US cattle and milk has vaccine scientists on high alert.<br />
+        A<br />
+        Avian influenza is no newcomer in human history. In 1918, a strain ripped through war-stricken populations, resulting in the deaths of more than 50 million people &ndash; more than any other recorded disease outbreak. Today, a highly pathogenic strain of bird flu, named H5N1, is causing a global animal pandemic, though human infection with this strain has so far been very rare.<br />
+        <br />
+        Since the strain's emergence in 1996, it has led to the deaths of billions of poultry birds, killed millions of birds in the wild and infected at least 48 species of mammals. In the US, farm cats have died after drinking the unpasteurised milk of H5N1-infected cattle. (Read more about how bird flu became an animal pandemic.)<br />
+        <br />
+        The latest strain has not adapted to spread easily between humans. Since 2003, 463 people have died from the virus, which has a fearsome mortality rate of over 50% among humans. So far, cases of human-to-human transmission are thought to have been limited and non-sustained.<br />
+        <br />
+        But the virus's ability to jump from mammal to mammal may be changing.&nbsp;<br />
+        <br />
+        In March, the variant was found to be spreading among cattle as well as poultry. By April, a farm worker in Texas became the first person to contract the virus from a cow. With modern cattle farming offering a potentially vast incubator for the virus, further mutation that results in more efficient spread in mammals, including humans, could become more likely, scientists have warned.&nbsp;<br />
+        <br />
+        If the virus does gain the ability to spread efficiently in humans, a vaccine would be one way to slow its progress. According to the World Health Organization (WHO), the virus is not yet at a stage that requires a human vaccine. But in anticipation of such a change, the organisation has confirmed that there are systems and plans in place to produce one.&nbsp;<br />
+        <br />
+        BBC Future Planet spoke to Maria Van Kerkhove, an epidemiologist and interim director of epidemic and pandemic preparedness and prevention at WHO, about what the process of producing and rolling out a human vaccine for bird flu might look like.<br />
+        <br />
+        Has avian influenza's circulation among US cattle &ndash; as well as its detection in milk &ndash; made the need for a human vaccine more pressing?&nbsp;<br />
+        <br />
+        Anytime that new species are infected, it changes our understanding of the virus: the more these viruses circulate, the more opportunities they have to change, and to infect people.&nbsp;<br />
+        <br />
+        Right now, we're seeing herd-to-herd transmission within cattle in the US &ndash; and there are a lot of studies underway that are trying to understand how the virus is circulating between the farms. On the H5N1 virus's presence in milk, we're also working with a number of researchers who are looking at the role of pasteurisation and virus inactivation. So for now it's really important for people to consume only pasteurised milk products.&nbsp;<br />
+        <br />
+        But human vaccines are for humans. And (at point of interview) we've had only 28 reported human cases since 2021, and no documented human-to-human transmission. For WHO to trigger increased development or the production of H5N1 vaccines, then something would really need to change in terms of the risk in humans.
+    - ID: "4161ff79-154a-4e48-93ee-c6a34c4b17aa"
+      Hint: TitleBackground
+      Value: |
+        <image mediaid="{8CB1F46B-E4CA-4A8B-BD51-C0A41EAD2232}" />
+    - ID: "43aeb2ff-d193-4151-be8f-feffa909b541"
+      Hint: ArticleTitle
+      Value: Bird flu vaccine for humans
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DanishStudent1
+    - ID: "ab1e5b2c-ee96-4db1-aae4-8b36b5a44313"
+      Hint: Title
+      Value: "A 70-year-old system could help us prepare a bird flu vaccine for humans"
+- Language: "fr-FR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240520T053449Z
+    - ID: "43aeb2ff-d193-4151-be8f-feffa909b541"
+      Hint: ArticleTitle
+      Value: Ceci est la version anglaise de l'article
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DanishStudent1

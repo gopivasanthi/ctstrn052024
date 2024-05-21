@@ -1,11 +1,14 @@
 ﻿@model IEnumerable<TRN.Feature.BasicContent.Models.Comments>
 
-@foreach (var comment in Model)
+@if (Model != null)
 {
-    <div>
-        <div>@comment.Name<span>(</span>@comment.ID - @comment.Email<span>)</span></div>
-        <p>
-            @comment.Comment
-        </p>
-    </div>
+    foreach (var comment in Model)
+    {
+        <div>
+            <div>@comment.Name<span>(</span>@comment.ID - @comment.Email<span>)</span></div>
+            <p>
+                @comment.Comment
+            </p>
+        </div>
+    }
 }

@@ -17,6 +17,7 @@ SharedFields:
     {E3337C23-829B-4B9C-B9F9-E66FE2445A86}
     {24725B18-2542-4A57-9174-46C79511E84E}
     {7CB2052A-11DE-472B-A500-B549D80C65A8}
+    {7BDC440C-635E-4623-9188-9CE15FB7EB3B}
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Type: layout
@@ -29,6 +30,10 @@ SharedFields:
           id="{22E48015-39DE-45F9-B560-13BAC7B7B4D3}"
           ph="trndemo"
           uid="{D58A5AC6-A165-4948-9751-D4806EC4E256}" />
+        <r
+          id="{7CB546F3-5161-4D4E-910B-327EF002D426}"
+          ph="trndemo"
+          uid="{9FF5F746-8D34-4CAA-AE06-AA98304109AF}" />
         <r
           id="{5C4B068B-F2DF-4F1C-8D28-66D4D4DF33B2}"
           ph="trndemo"

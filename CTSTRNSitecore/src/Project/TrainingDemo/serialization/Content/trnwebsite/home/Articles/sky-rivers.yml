@@ -1,0 +1,46 @@
+﻿---
+ID: "1543d095-aa36-48fb-98fc-756898bda5e5"
+Parent: "8d2530a7-01f2-4c15-9430-e0c520228d27"
+Template: "883f305d-78f7-46cc-8942-40dcaa77423a"
+Path: "/sitecore/content/trnwebsite/home/Articles/sky-rivers"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240517T051958Z
+    - ID: "3470c3e0-e889-48e1-8ef6-a932960f6a53"
+      Hint: IsSEOIndexable
+      Type: Checkbox
+      Value: 1
+    - ID: "369b7ae5-8d90-4784-b60b-e750deab72aa"
+      Hint: ArticleDescription
+      Value: |
+        Atmospheric river storms have wreaked havoc on the West Coast, and are getting bigger. These scientists chase them in the sky to predict where they will strike.<br />
+        I<br />
+        In January 2024, Anna Wilson was sitting aboard a Gulfstream IV jet, observing a deceptively calm-looking sea of white clouds over the northern Pacific Ocean. Through her headphones, Wilson &ndash; an atmospheric scientist and extreme weather expert &ndash; could hear her colleague give a countdown. At the back of the plane, another colleague dropped slim, cylindrical instruments through a chute, into the brewing storm below them, to measure its strength as it approached the US West Coast.<br />
+        <br />
+        The type of storm they were tracking is known as an atmospheric river &ndash; a weather phenomenon that has been attracting more and more attention in recent years, as scientists and the public race to understand its sometimes devastating impact. Research suggests that atmospheric rivers are getting bigger, more frequent and more extreme, due to climate change; and the damage they cause is getting worse.<br />
+        <br />
+        Often described as rivers in the sky, atmospheric rivers are a huge, invisible ribbons of water vapour. Each can be several hundreds of kilometres wide, and transport 27 times as much water as the Mississippi River. They are born in warm oceans, as seawater evaporates, rises and moves to cooler latitudes. When the vapour reaches a coast, such as California, it flows up a mountain, cools, and comes down as rain or snow &ndash; enough to wash down hillsides causing landslides, and bring torrential rain, floods and deadly avalanches.
+    - ID: "3f213186-a4de-46f2-b4e5-34ba76a4a713"
+      Hint: ArticleImage
+      Value: |
+        <image mediaid="{D027F4BF-E44B-4FF6-8011-963D688E919C}" />
+    - ID: "4161ff79-154a-4e48-93ee-c6a34c4b17aa"
+      Hint: TitleBackground
+      Value: |
+        <image mediaid="{28B4888E-8917-4E0C-A534-5D670BD967D5}" />
+    - ID: "43aeb2ff-d193-4151-be8f-feffa909b541"
+      Hint: ArticleTitle
+      Value: Sky rivers
+    - ID: "529fd556-55f8-4c15-b954-afe97852b2e7"
+      Hint: IsCacheable
+      Type: Checkbox
+      Value: 1
+    - ID: "ab1e5b2c-ee96-4db1-aae4-8b36b5a44313"
+      Hint: Title
+      Value: Inside the giant 'sky rivers' swelling with climate change

@@ -1,0 +1,70 @@
+﻿---
+ID: "7dc9d6e6-51f1-4618-a30a-ad7c574388c1"
+Parent: "8d2530a7-01f2-4c15-9430-e0c520228d27"
+Template: "883f305d-78f7-46cc-8942-40dcaa77423a"
+Path: "/sitecore/content/trnwebsite/home/Articles/global-risks"
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{40F2FC8F-B1AF-4B7F-B239-3E677542401C}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240520T070455Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{EE7EC666-4E96-4802-B4AC-30020ED2E967}"
+    - ID: "43aeb2ff-d193-4151-be8f-feffa909b541"
+      Hint: ArticleTitle
+      Value: sdfsdfdfd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\stdreviewer
+    - ID: "ab1e5b2c-ee96-4db1-aae4-8b36b5a44313"
+      Hint: Title
+      Value: dsfdfd
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240520T070530Z
+    - ID: "369b7ae5-8d90-4784-b60b-e750deab72aa"
+      Hint: ArticleDescription
+      Value: |
+        The World Economic Forum&rsquo;s Global Risks Report 2024 says the biggest short-term risk stems from misinformation and disinformation.<br />
+        In the longer term, climate-related threats dominate the top 10 risks global populations will face.<br />
+        Two-thirds of global experts anticipate a multipolar or fragmented order to take shape over the next decade.<br />
+        The cascading shocks that have beset the world in recent years are proving intractable. War and conflict, polarized politics, a continuing cost-of-living crisis and the ever-increasing impacts of a changing climate are destabilizing the global order.<br />
+        <br />
+        The key findings of the World Economic Forum&rsquo;s Global Risks Report 2024 reflect these most pressing challenges faced by people in every region of the world.<br />
+        <br />
+        A pessimistic global outlook<br />
+        The report reveals a world &ldquo;plagued by a duo of dangerous crises: climate and conflict.&rdquo; These threats are set against a backdrop of rapidly accelerating technological change and economic uncertainty.<br />
+        <br />
+        The findings are based on the Forum&rsquo;s Global Risks Perception Survey, which gathers insights from nearly 1,500 global experts from academia, business, government, the international community and civil society.
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{EE7EC666-4E96-4802-B4AC-30020ED2E967}"
+    - ID: "4161ff79-154a-4e48-93ee-c6a34c4b17aa"
+      Hint: TitleBackground
+      Value: |
+        <image mediaid="{215E1BA4-3D19-466F-946C-7013F6284D0D}" />
+    - ID: "43aeb2ff-d193-4151-be8f-feffa909b541"
+      Hint: ArticleTitle
+      Value: Global risks
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\stdapprover
+    - ID: "ab1e5b2c-ee96-4db1-aae4-8b36b5a44313"
+      Hint: Title
+      Value: These are the biggest global risks we face in 2024 and beyond
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240520T070530Z

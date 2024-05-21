@@ -1,0 +1,24 @@
+﻿---
+ID: "3c4a6e8e-54c4-4835-829e-cdd2d2b98ebb"
+Parent: "5a852e87-66e9-49ca-b2d1-9312ceec94d3"
+Template: "6cd0b09c-cfe7-404e-bf7d-bcd5cee6dd59"
+Path: /sitecore/content/trnwebsite/home/Search/SearchLabel
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2220c797-f87c-45ca-85c6-8f7e70018fb1"
+      Hint: SeachTextPlaceholder
+      Value: Please give your search term for searching...
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240521T042940Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "f90495d6-883b-48e6-b22e-47fe8ae5ffd8"
+      Hint: SearchButtonLabel
+      Value: Search

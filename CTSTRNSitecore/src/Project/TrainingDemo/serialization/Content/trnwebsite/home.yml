@@ -5,6 +5,10 @@ Template: "f3f2e044-d4c3-43c5-9f2f-189984e1ab31"
 Path: /sitecore/content/trnwebsite/home
 DB: master
 SharedFields:
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\trnarticleauthor|pd|+item:read|pe|+item:read|ar|sitecore\trnarticleadmin|pd|+item:read|pe|+item:read|
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Type: layout
@@ -19,18 +23,15 @@ SharedFields:
           s:ds=""
           s:par="" />
         <r
+          uid="{9FF5F746-8D34-4CAA-AE06-AA98304109AF}"
+          s:ccb="Clear on publish"
+          s:ds="{3C4A6E8E-54C4-4835-829E-CDD2D2B98EBB}"
+          s:par="" />
+        <r
           uid="{EE9E392D-81D2-479E-A65A-2EF48A52A543}"
           s:ccb="Clear on publish"
           s:ds="{D8997EE4-8D6D-4582-8AFE-04C0BD8121F9}"
           s:par="" />
-        <r
-          uid="{0E667CF6-2D03-4A48-BB9C-D52285C0C390}"
-          p:after="*[1=2]"
-          s:ds="{02067CE2-923B-488A-A83B-4F3B884F449B}"
-          s:id="{6B5B0FE6-5C85-4487-BA7E-F8C2ECC186A8}"
-          s:par=""
-          s:ph="trndemo"
-          s:ccb="Clear on publish" />
       </d>
     </r>
 Languages:
@@ -64,7 +65,7 @@ Languages:
             </r>
             <r
               uid="{EE9E392D-81D2-479E-A65A-2EF48A52A543}"
-              s:pt="{3F49F902-0C09-4ED0-83B4-6BFE6FB16A66}"
+              s:pt="{507E96E8-F1D2-46CC-8217-197F7DDDE84C}"
               s:uid="{EE9E392D-81D2-479E-A65A-2EF48A52A543}">
               <rls>
                 <ruleset
@@ -138,7 +139,7 @@ Languages:
       Value: 1
     - ID: "ab1e5b2c-ee96-4db1-aae4-8b36b5a44313"
       Hint: Title
-      Value: "Home Page - 24"
+      Value: BBC
     - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
       Hint: __Valid from
       Value: 20240502T070903Z

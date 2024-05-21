@@ -14,14 +14,35 @@ Languages:
       Value: 20240515T061047Z
     - ID: "369b7ae5-8d90-4784-b60b-e750deab72aa"
       Hint: ArticleDescription
-      Value: test
+      Value: |
+        <div data-component="text-block" class="ssrcss-uf6wea-RichTextComponentWrapper ep2nwvo0" style="color: #141414; background-color: #ffffff; margin: 1rem 0px; padding: 0px; border: 0px; line-height: inherit;">
+        <div class="ssrcss-7uxr49-RichTextContainer e5tfeyi1" style="margin: 0px; padding: 0px; border: 0px; line-height: inherit;">
+        <p class="ssrcss-1q0x1qg-Paragraph e1jhz7w10" style="margin-top: 1rem; margin-right: 0px; margin-left: 0px; padding: 0px; border: 0px; line-height: inherit;">Things are likely to worsen in the coming decades, but scientists argue urgent action can limit the worst effects of climate change.</p>
+        </div>
+        </div>
+        <div data-component="subheadline-block" class="ssrcss-19w8cxh-ComponentWrapper-HeadlineComponentWrapper egtrm1f0" style="color: #141414; background-color: #ffffff; margin: 2.5rem 0px 1.5rem; padding: 0px; border: 0px; line-height: inherit;">
+        <h2 id="What-is-climate-change" tabindex="-1" class="ssrcss-1ipj56t-Heading e10rt3ze0" style="margin: 0px; padding: 0px; border: 0px; line-height: 1.125;"><span role="text" style="margin: 0px; padding: 0px; border: 0px; line-height: inherit;">What is climate change?</span></h2>
+        </div>
+        <div data-component="text-block" class="ssrcss-uf6wea-RichTextComponentWrapper ep2nwvo0" style="color: #141414; background-color: #ffffff; margin: 1rem 0px; padding: 0px; border: 0px; line-height: inherit;">
+        <div class="ssrcss-7uxr49-RichTextContainer e5tfeyi1" style="margin: 0px; padding: 0px; border: 0px; line-height: inherit;">
+        <p class="ssrcss-1q0x1qg-Paragraph e1jhz7w10" style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding: 0px; border: 0px; line-height: inherit;">Climate change is the long-term shift in the Earth's average temperatures and weather conditions.</p>
+        <p class="ssrcss-1q0x1qg-Paragraph e1jhz7w10" style="margin: 1rem 0px 0px; padding: 0px; border: 0px; line-height: inherit;">Over the last decade, the world was on average around 1.2C warmer than during the late 19th Century.</p>
+        <p class="ssrcss-1q0x1qg-Paragraph e1jhz7w10" style="margin: 1rem 0px 0px; padding: 0px; border: 0px; line-height: inherit;">It has now been confirmed that&nbsp;<a href="https://www.bbc.co.uk/news/science-environment-68110310" class="ssrcss-f6h2dj-InlineLink e1kn3p7n0" style="color: #141414; margin: 0px; padding: 0px; border: 0px; line-height: inherit;">global warming exceeded 1.5C across the 12 month period between February 2023 and January 2024</a>. That followed 2023&nbsp;<a href="https://www.bbc.co.uk/news/science-environment-67861954" class="ssrcss-f6h2dj-InlineLink e1kn3p7n0" style="color: #141414; margin: 0px; padding: 0px; border: 0px; line-height: inherit;">being declared the warmest year on record</a>.</p>
+        <p class="ssrcss-1q0x1qg-Paragraph e1jhz7w10" style="margin-top: 1rem; margin-right: 0px; margin-left: 0px; padding: 0px; border: 0px; line-height: inherit;">The temperature increase was driven by human-caused climate change and boosted by&nbsp;<a href="https://www.bbc.co.uk/news/science-environment-64192508" class="ssrcss-f6h2dj-InlineLink e1kn3p7n0" style="color: #141414; margin: 0px; padding: 0px; border: 0px; line-height: inherit;">the natural El Ni&ntilde;o weather phenomenon</a>.</p>
+        </div>
+        </div>
+        test
     - ID: "3f213186-a4de-46f2-b4e5-34ba76a4a713"
       Hint: ArticleImage
       Value: |
         <image mediaid="{8CB1F46B-E4CA-4A8B-BD51-C0A41EAD2232}" />
+    - ID: "4161ff79-154a-4e48-93ee-c6a34c4b17aa"
+      Hint: TitleBackground
+      Value: |
+        <image mediaid="{DE0B4A96-72E8-42AB-A55C-3649A158337C}" />
     - ID: "43aeb2ff-d193-4151-be8f-feffa909b541"
       Hint: ArticleTitle
-      Value: Global Warming
+      Value: Climate change
     - ID: "4f3d690b-a3e3-4ad0-9e5d-38402e451775"
       Hint: IsNavigablePage
       Type: Checkbox
@@ -30,3 +51,6 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\admin
+    - ID: "ab1e5b2c-ee96-4db1-aae4-8b36b5a44313"
+      Hint: Title
+      Value: "Human activities are causing world temperatures to rise, with more intense heatwaves and rising sea-levels among the consequences."
