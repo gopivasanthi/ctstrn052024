@@ -1,0 +1,10 @@
+﻿@model TRN.Feature.Search.Models.SearchViewModel
+
+@*<form class="d-flex" role="search">*@
+@using (Html.BeginForm())
+{
+    <input class="form-control me-2" type="search" name="@Model.SearchTerm" placeholder="@Model.SearchTextBoxPlaceholder" aria-label="Search">
+    <button class="btn btn-outline-success" type="submit">@Model.SearchButtonLabel</button>
+    @*</form>*@
+
+}

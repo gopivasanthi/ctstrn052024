@@ -1,0 +1,14 @@
+﻿@model IEnumerable<TRN.Feature.Search.Models.ArticleSearchResultItem>
+<h1>Search Results</h1>
+<br />
+@foreach (var resultItem in Model)
+{
+<div class="card" style="width: 18rem;">
+    <img src="@resultItem.ResultImageUrl" class="card-img-top" alt="@resultItem.ResultImageAlt">
+    <div class="card-body">
+        <h5 class="card-title">@resultItem.ResultTitle</h5>
+        <p class="card-text">@resultItem.ResultBrief</p>
+        <a href="@resultItem.ResultSourceLink" class="btn btn-primary">See Details</a>
+    </div>
+</div>
+}
