@@ -50,23 +50,28 @@ namespace TRN.Feature.Search.Controllers
                 return "";
             if (resultItem.Document is null)
                 return "";
-
-            var result = resultItem.Document.Fields[fieldName];
-            if (result is null)
-                return "";
-            else
+            if (resultItem.Document.Fields.ContainsKey(fieldName))
             {
-                var resultStr = Convert.ToString(resultItem.Document.Fields[fieldName]);
-                if (resultStr.Contains("sitecore/shell/"))
-                {
-                    var res = resultStr.Replace("/sitecore/shell/", "");
-                    return res;
-                }
+                var result = resultItem.Document.Fields[fieldName];
+                if (result is null)
+                    return "";
                 else
                 {
-                    return resultStr;
+                    var resultStr = Convert.ToString(resultItem.Document.Fields[fieldName]);
+                    if (resultStr.Contains("sitecore/shell/"))
+                    {
+                        var res = resultStr.Replace("/sitecore/shell/", "");
+                        return res;
+                    }
+                    else
+                    {
+                        return resultStr;
+                    }
                 }
             }
+            else
+                return "";
+
         }
     }
 }
